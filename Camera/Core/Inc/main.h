@@ -55,6 +55,9 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
 
+// Defined by faizal
+//#define GREEN_LED_GPIO_PORT GPIOB
+//#define GREEN_LED_GPIO_PIN GPIO_PIN_7
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
@@ -74,12 +77,8 @@ void Error_Handler(void);
 #define RMII_RXD0_GPIO_Port GPIOC
 #define RMII_RXD1_Pin GPIO_PIN_5
 #define RMII_RXD1_GPIO_Port GPIOC
-#define LD1_Pin GPIO_PIN_0
-#define LD1_GPIO_Port GPIOB
 #define RMII_TXD1_Pin GPIO_PIN_13
 #define RMII_TXD1_GPIO_Port GPIOB
-#define LD3_Pin GPIO_PIN_14
-#define LD3_GPIO_Port GPIOB
 #define USB_PowerSwitchOn_Pin GPIO_PIN_6
 #define USB_PowerSwitchOn_GPIO_Port GPIOG
 #define USB_OverCurrent_Pin GPIO_PIN_7
@@ -104,8 +103,6 @@ void Error_Handler(void);
 #define RMII_TXD0_GPIO_Port GPIOG
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
-#define LD2_Pin GPIO_PIN_7
-#define LD2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
